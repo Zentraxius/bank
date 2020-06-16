@@ -14,7 +14,34 @@
 <body>
   <h1>Epicodus Banking Industries</h1>
   <h6>For the right interest rate, we'll approve anyone!</h6>
-  <form id="new-account"></form>
+
+  <form id="new-account">
+    <label for="userName">Enter your Name</label>
+    <br>
+    <input type="text" id="userName">
+    <br>
+    <label for="initialDeposit">Please enter your initial deposit:</label>
+    <br>
+    <input type="number" id="initialDeposit">
+    <br>
+    <label for="giveMeMoney">Deposit:</label>
+    <br>
+    <input type="number" id="giveMeMoney">
+    <br>
+    <label for="takeMyMoney">Withdrawal:</label>
+    <br>
+    <input type="number" id="takeMyMoney">
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-5"></div>
+      <div class="col-md-2">
+        <h6>Current Balance:</h6>
+        <p class="balanceDisplay">$600.00</p>
+      </div>
+      <div class="col-md-5"></div>
+    </div>
+  </form>
 </body>
 
 </html>

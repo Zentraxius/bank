@@ -21,6 +21,25 @@
 //I'M NOT ANGRY. JUST DISAPPOINTED.
 //her capslock argues otherwise
 
+function Bank() {
+ this.accountName = accountName;
+ this.startingAmt = startingAmt;
+ this.deposit = deposit;
+ this.withdrawl = withdrawl;
+}
+
+Bank.prototype.startingAmt = function() {
+  
+}
+
+Bank.prototype.deposit = function() {
+  
+}
+
+Bank.prototype.withdrawl = function() {
+  
+}
+
 
 
 $(document).ready(function(){
